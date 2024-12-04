@@ -1,0 +1,118 @@
+/* General Footer Styling */
+.footer {
+    background-color: #05274d; /* Matches the dark blue background */
+    color: white;
+    padding: 20px;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Footer Logo Section */
+  .footer-logo {
+    flex: 1;
+    text-align: left;
+    margin: 10px;
+    mix-blend-mode: multiply;
+  }
+
+  .logo-text{
+    color: rgb(0, 0, 0);
+    mix-blend-mode: multiply;
+  }
+  
+  .footer-logo img {
+    max-width: 150px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-logo p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  /* Footer Links */
+  .footer-links {
+    flex: 2;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .footer-column {
+    margin: 10px;
+    text-align: left;
+  }
+  
+  .footer-column h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+  
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-column li {
+    margin-bottom: 8px;
+  }
+  
+  .footer-column a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s;
+  }
+  
+  .footer-column a:hover {
+    color: #a5c8ff; /* Hover color */
+  }
+  
+  /* Social Media Links */
+  .footer-socials {
+    flex: 1;
+    text-align: right;
+    margin: 10px;
+  }
+  
+  .footer-socials a {
+    margin: 0 5px;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s;
+  }
+  
+  .footer-socials a:hover {
+    color: #a5c8ff;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .footer-logo,
+    .footer-socials {
+      text-align: center;
+    }
+  
+    .footer-links {
+      justify-content: center;
+      margin-top: 20px;
+    }
+  
+    .footer-column {
+      margin: 10px 0;
+    }
+  }
+  
