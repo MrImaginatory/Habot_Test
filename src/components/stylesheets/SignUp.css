@@ -77,6 +77,12 @@
         width: 100%;
     }
 
+    .paragraph button {
+        width: 100%;
+        text-align: center;
+        margin: 2rem 0;
+    }
+
     .buttons {
         flex-direction: column;
         align-items: center;

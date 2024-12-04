@@ -103,15 +103,23 @@
       gap: 1rem;
   }
 
+  .input-group{
+    align-items: center;
+  }
   .input-wrapper {
       width: 100%;
+      display: flex;
   }
 
   .input-wrapper input {
       width: 85%;
   }
 
+  .input-wrapper .icon {
+      left: 15px;
+  }
+
   .search-btn {
-      width: 100%;
+      width: 80%;
   }
 }
